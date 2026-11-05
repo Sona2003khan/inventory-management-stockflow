@@ -1,3 +1,4 @@
+
 # Build stage (using Java 21)
 FROM maven:3-eclipse-temurin-21 AS build
 COPY . .
